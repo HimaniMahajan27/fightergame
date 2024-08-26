@@ -1,0 +1,129 @@
+*{
+   box-sizing: border-box; 
+   margin: 0;
+   padding: 0;
+}
+.player{
+    background-color: rgb(208, 84, 106);
+    height: 30px;
+    width: 100%;
+    left: 0;box-shadow: 2px 2px 7px rgb(187, 113, 113);
+    border-radius: 10px;
+}
+.maincontainer{
+    position: relative;
+    display: inline-block;
+}
+.box
+{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    
+}
+.timer{
+    background-color: rgb(206, 121, 121);
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow:2px 2px 8px 2px inset rgb(224, 81, 105);
+    font-size: x-large;
+    font-weight: bold;
+    background: conic-gradient(rgb(230, 136, 180), rgb(224, 107, 162), rgb(238, 162, 200), rgb(231, 151, 194)
+    );
+}
+
+.enemy{
+    background-color: rgb(208,84, 106);
+   height: 30px;
+   left: 0;
+   box-shadow: 2px 2px 7px rgb(187, 113, 113);
+   border-radius: 10px; 
+}
+.newdiv
+{
+    position: absolute;
+    background-color: rgb(48, 11, 135);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;box-shadow: 2px 2px 7px white;
+    border: 4px solid rgb(57, 0, 121);
+    border-radius: 10px;
+}
+.parentenemy
+{
+position: relative;
+height: 30px;
+width: 100%;
+}
+
+.parentplayer
+{
+position: relative;
+height: 30px;
+width: 100%;
+display: flex;
+justify-content: flex-end;
+}
+.newdiv1
+{
+    position: absolute;
+    background-color: rgb(48, 11, 135);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    left: 0;box-shadow: 2px 2px 7px white;
+    border: 4px solid rgb(57, 0, 121);
+    border-radius: 10px;
+}
+.tie{
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    font-size: 58px;
+    color: rgb(249, 220, 0);
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+}
+canvas{
+    width: 1600px;
+    height: 680px;
+}
+.reset 
+{
+    display: none;
+     position: absolute;
+     justify-content: center;
+     text-align: center;
+     margin-top: 380px;
+     margin-left: 720px;
+     padding: 14px;
+     font-size: larger;
+     border-style: none;
+     border-radius: 100px;
+     padding-left: 30px;
+     padding-right: 30px;
+     box-shadow: 1px 1px 5px inset black;
+     background-color: rgb(231, 250, 170);
+     font-size: x-large;
+}
+
+.reset:hover{
+    cursor: pointer;
+    opacity: 70%;   
+}
